@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+/* My CSS */
+.container{
+  background-image: url(./Images/Paris.jpg);
+  height: 630px;
+  background-size: 100% 100%; 
+  position: relative;
+  bottom: 160px; 
+}
+
+.slogan{
+    margin-top: 30px;    
+    font-size: 3em;    
+    height: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu_bar
+{
+    background: peachpuff;
+    color: black;      
+    position: relative;
+    bottom: 150px; 
+}
+
+.list_menu
+{
+    display: inline-block;
+    /* margin-right: 20px; */
+    border-right-style: solid;
+    border-right-color: bisque;
+    font-weight: bold;
+    width: 150px; 
+
+}
+
+.list_menu:hover{
+    color:white; 
+    cursor:pointer;
+    background-color: thistle;
+}
+
+.main_container
+{
+  position: relative;
+  bottom: 150px;
+}
